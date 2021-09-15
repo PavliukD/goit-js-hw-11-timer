@@ -1,5 +1,8 @@
+import CountdownTimer from './js/timer'
 
-import { delay } from './js/task1'
-import { toggleUserState } from './js/task2'
-import { makeTransaction } from './js/task3'
+new CountdownTimer({
+    selector: '#timer-1',
+    targetDate: new Date('Jul 17, 2022'),
+  });
+
 
